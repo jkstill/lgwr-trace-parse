@@ -1,0 +1,45 @@
+Trace file /u01/app/oracle/diag/rdbms/oravm/oravm1/trace/oravm1_lgwr_5268.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/db_1
+System name:	Linux
+Node name:	oravm01.jks.com
+Release:	2.6.18-194.el5
+Version:	#1 SMP Mon Mar 29 22:10:29 EDT 2010
+Machine:	x86_64
+Instance name: oravm1
+Redo thread mounted by this instance: 1
+Oracle process number: 18
+Unix process pid: 5268, image: oracle@oravm01.jks.com (LGWR)
+
+
+*** 2015-03-12 03:00:53.605
+*** SESSION ID:(9.1) 2015-03-12 03:00:53.605
+*** CLIENT ID:() 2015-03-12 03:00:53.605
+*** SERVICE NAME:(SYS$BACKGROUND) 2015-03-12 03:00:53.605
+*** MODULE NAME:() 2015-03-12 03:00:53.605
+*** ACTION NAME:() 2015-03-12 03:00:53.605
+ 
+Warning: log write elapsed time 1361ms, size 1029KB
+
+*** 2015-03-12 13:00:29.072
+Warning: log write elapsed time 643ms, size 76KB
+
+*** 2015-03-12 17:00:26.296
+Warning: log write elapsed time 797ms, size 3075KB
+
+*** 2015-03-12 20:02:36.045
+Warning: log write elapsed time 516ms, size 865KB
+
+*** 2015-03-12 20:02:37.579
+Warning: log write elapsed time 617ms, size 3KB
+
+*** 2015-03-12 20:03:34.791
+Warning: log write elapsed time 590ms, size 29KB
+
+*** 2015-03-13 02:00:06.529
+Warning: log write elapsed time 625ms, size 71KB
+
+*** 2015-03-13 02:00:07.095
+Warning: log write elapsed time 566ms, size 328KB

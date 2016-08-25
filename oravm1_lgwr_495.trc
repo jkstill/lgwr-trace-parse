@@ -1,0 +1,108 @@
+Trace file /u01/app/oracle/diag/rdbms/oravm/oravm1/trace/oravm1_lgwr_495.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/db_1
+System name:	Linux
+Node name:	oravm01.jks.com
+Release:	2.6.18-194.el5
+Version:	#1 SMP Mon Mar 29 22:10:29 EDT 2010
+Machine:	x86_64
+Instance name: oravm1
+Redo thread mounted by this instance: 1
+Oracle process number: 18
+Unix process pid: 495, image: oracle@oravm01.jks.com (LGWR)
+
+
+*** 2015-02-06 20:01:26.330
+*** SESSION ID:(9.1) 2015-02-06 20:01:26.330
+*** CLIENT ID:() 2015-02-06 20:01:26.330
+*** SERVICE NAME:(SYS$BACKGROUND) 2015-02-06 20:01:26.330
+*** MODULE NAME:() 2015-02-06 20:01:26.330
+*** ACTION NAME:() 2015-02-06 20:01:26.330
+ 
+Warning: log write elapsed time 740ms, size 0KB
+
+*** 2015-02-07 16:24:54.997
+Warning: log write elapsed time 511ms, size 3KB
+
+*** 2015-02-08 13:24:36.535
+Warning: log write elapsed time 1444ms, size 1025KB
+
+*** 2015-02-08 13:24:37.365
+Warning: log write elapsed time 813ms, size 1057KB
+
+*** 2015-02-09 13:25:52.078
+Warning: log write elapsed time 1207ms, size 1024KB
+
+*** 2015-02-09 13:25:54.072
+Warning: log write elapsed time 1778ms, size 1029KB
+
+*** 2015-02-10 13:26:45.647
+Warning: log write elapsed time 524ms, size 801KB
+
+*** 2015-02-10 13:27:16.773
+Warning: log write elapsed time 3597ms, size 1004KB
+
+*** 2015-02-10 13:27:38.756
+Warning: log write elapsed time 1506ms, size 1013KB
+
+*** 2015-02-10 13:27:43.386
+Warning: log write elapsed time 634ms, size 320KB
+
+*** 2015-02-11 13:28:28.426
+Warning: log write elapsed time 2159ms, size 1024KB
+
+*** 2015-02-11 13:28:31.358
+Warning: log write elapsed time 919ms, size 1024KB
+
+*** 2015-02-12 20:01:27.236
+Warning: log write elapsed time 554ms, size 176KB
+
+*** 2015-02-13 15:57:42.994
+Warning: log write elapsed time 823ms, size 0KB
+
+*** 2015-02-14 13:02:08.294
+Warning: log write elapsed time 1145ms, size 795KB
+
+*** 2015-02-14 18:20:52.347
+Warning: log write elapsed time 1342ms, size 1KB
+
+*** 2015-02-14 18:20:55.182
+Warning: log write elapsed time 2834ms, size 142KB
+
+*** 2015-02-15 13:03:27.803
+Warning: log write elapsed time 1439ms, size 1024KB
+
+*** 2015-02-15 13:03:34.748
+Warning: log write elapsed time 2710ms, size 1024KB
+
+*** 2015-02-16 10:49:42.466
+Warning: log write elapsed time 1716ms, size 0KB
+
+*** 2015-02-16 13:04:43.923
+Warning: log write elapsed time 4361ms, size 791KB
+
+*** 2015-02-16 13:04:46.217
+Warning: log write elapsed time 2293ms, size 449KB
+
+*** 2015-02-16 20:01:33.169
+Warning: log write elapsed time 580ms, size 4KB
+
+*** 2015-02-16 20:01:48.601
+Warning: log write elapsed time 1010ms, size 1025KB
+
+*** 2015-02-17 13:06:13.315
+Warning: log write elapsed time 851ms, size 479KB
+
+*** 2015-02-17 21:00:34.843
+Warning: log write elapsed time 969ms, size 164KB
+
+*** 2015-02-18 11:06:12.320
+Warning: log write elapsed time 525ms, size 37KB
+
+*** 2015-02-18 13:07:24.783
+Warning: log write elapsed time 567ms, size 1024KB
+
+*** 2015-02-18 13:07:26.848
+Warning: log write elapsed time 1163ms, size 1882KB

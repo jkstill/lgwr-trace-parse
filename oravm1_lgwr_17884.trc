@@ -1,0 +1,453 @@
+Trace file /u01/app/oracle/diag/rdbms/oravm/oravm1/trace/oravm1_lgwr_17884.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Data Mining and Real Application Testing options
+ORACLE_HOME = /u01/app/oracle/product/11.2.0/db_1
+System name:	Linux
+Node name:	oravm01.jks.com
+Release:	2.6.18-194.el5
+Version:	#1 SMP Mon Mar 29 22:10:29 EDT 2010
+Machine:	x86_64
+Instance name: oravm1
+Redo thread mounted by this instance: 1
+Oracle process number: 18
+Unix process pid: 17884, image: oracle@oravm01.jks.com (LGWR)
+
+
+*** 2015-03-10 14:08:53.050
+*** SESSION ID:(9.1) 2015-03-10 14:08:53.050
+*** CLIENT ID:() 2015-03-10 14:08:53.050
+*** SERVICE NAME:(SYS$BACKGROUND) 2015-03-10 14:08:53.050
+*** MODULE NAME:() 2015-03-10 14:08:53.050
+*** ACTION NAME:() 2015-03-10 14:08:53.050
+ 
+Warning: log write elapsed time 610ms, size 12KB
+
+*** 2015-03-10 14:09:08.402
+Warning: log write elapsed time 1232ms, size 652KB
+
+*** 2015-03-10 14:09:16.846
+Warning: log write elapsed time 784ms, size 327KB
+
+*** 2015-03-10 14:09:19.665
+Warning: log write elapsed time 597ms, size 1048KB
+
+*** 2015-03-10 14:09:35.706
+Warning: log write elapsed time 1562ms, size 894KB
+
+*** 2015-03-10 14:09:40.350
+Warning: log write elapsed time 555ms, size 3323KB
+
+*** 2015-03-10 14:09:43.435
+Warning: log write elapsed time 571ms, size 1024KB
+
+*** 2015-03-10 14:09:46.780
+Warning: log write elapsed time 581ms, size 1024KB
+
+*** 2015-03-10 14:09:54.655
+Warning: log write elapsed time 833ms, size 732KB
+
+*** 2015-03-10 14:10:04.895
+Warning: log write elapsed time 584ms, size 286KB
+
+*** 2015-03-10 14:10:25.821
+Warning: log write elapsed time 676ms, size 1044KB
+
+*** 2015-03-10 14:10:31.441
+Warning: log write elapsed time 625ms, size 362KB
+
+*** 2015-03-10 14:10:43.345
+Warning: log write elapsed time 615ms, size 1025KB
+
+*** 2015-03-10 14:10:49.796
+Warning: log write elapsed time 807ms, size 492KB
+
+*** 2015-03-10 14:10:57.251
+Warning: log write elapsed time 723ms, size 1334KB
+
+*** 2015-03-10 14:11:09.076
+Warning: log write elapsed time 569ms, size 1024KB
+
+*** 2015-03-10 15:05:24.831
+Warning: log write elapsed time 766ms, size 5KB
+
+*** 2015-03-10 15:37:16.252
+Warning: log write elapsed time 930ms, size 1029KB
+
+*** 2015-03-10 15:37:22.272
+Warning: log write elapsed time 631ms, size 1661KB
+
+*** 2015-03-10 15:37:24.081
+Warning: log write elapsed time 702ms, size 2907KB
+
+*** 2015-03-10 15:37:24.861
+Warning: log write elapsed time 779ms, size 3305KB
+
+*** 2015-03-10 15:37:28.834
+Warning: log write elapsed time 609ms, size 1729KB
+
+*** 2015-03-10 15:37:33.476
+Warning: log write elapsed time 800ms, size 1608KB
+
+*** 2015-03-10 15:37:38.122
+Warning: log write elapsed time 685ms, size 1025KB
+
+*** 2015-03-10 15:37:39.135
+Warning: log write elapsed time 1012ms, size 4671KB
+
+*** 2015-03-10 15:37:40.638
+Warning: log write elapsed time 1027ms, size 3323KB
+
+*** 2015-03-10 15:37:42.115
+Warning: log write elapsed time 835ms, size 2293KB
+
+*** 2015-03-10 15:37:43.406
+Warning: log write elapsed time 609ms, size 1900KB
+
+*** 2015-03-10 15:37:44.632
+Warning: log write elapsed time 1225ms, size 3736KB
+
+*** 2015-03-10 15:37:47.400
+Warning: log write elapsed time 1420ms, size 6066KB
+
+*** 2015-03-10 15:37:50.003
+Warning: log write elapsed time 665ms, size 2278KB
+
+*** 2015-03-10 16:34:40.985
+Warning: log write elapsed time 514ms, size 316KB
+
+*** 2015-03-10 16:35:21.562
+Warning: log write elapsed time 508ms, size 1024KB
+
+*** 2015-03-10 16:35:23.350
+Warning: log write elapsed time 517ms, size 1024KB
+
+*** 2015-03-10 16:35:25.491
+Warning: log write elapsed time 664ms, size 1725KB
+
+*** 2015-03-10 16:35:27.073
+Warning: log write elapsed time 860ms, size 1598KB
+
+*** 2015-03-10 16:35:28.832
+Warning: log write elapsed time 644ms, size 2299KB
+
+*** 2015-03-10 16:35:30.921
+Warning: log write elapsed time 962ms, size 2218KB
+
+*** 2015-03-10 16:35:35.101
+Warning: log write elapsed time 982ms, size 2299KB
+
+*** 2015-03-10 16:36:53.096
+Warning: log write elapsed time 627ms, size 2291KB
+
+*** 2015-03-10 16:36:55.129
+Warning: log write elapsed time 637ms, size 1146KB
+
+*** 2015-03-10 16:36:57.002
+Warning: log write elapsed time 552ms, size 1028KB
+
+*** 2015-03-10 16:37:14.283
+Warning: log write elapsed time 782ms, size 1929KB
+
+*** 2015-03-10 16:37:15.696
+Warning: log write elapsed time 628ms, size 1031KB
+
+*** 2015-03-10 16:37:17.976
+Warning: log write elapsed time 1128ms, size 2299KB
+
+*** 2015-03-10 16:37:18.978
+Warning: log write elapsed time 734ms, size 2180KB
+
+*** 2015-03-10 16:37:21.255
+Warning: log write elapsed time 644ms, size 1024KB
+
+*** 2015-03-10 16:37:22.279
+Warning: log write elapsed time 611ms, size 1542KB
+
+*** 2015-03-10 16:37:23.404
+Warning: log write elapsed time 551ms, size 1473KB
+
+*** 2015-03-10 16:37:24.926
+Warning: log write elapsed time 757ms, size 3051KB
+
+*** 2015-03-10 16:37:26.541
+Warning: log write elapsed time 609ms, size 2002KB
+
+*** 2015-03-10 16:37:28.338
+Warning: log write elapsed time 1419ms, size 1428KB
+
+*** 2015-03-10 16:37:30.431
+Warning: log write elapsed time 1461ms, size 1024KB
+
+*** 2015-03-10 16:37:32.584
+Warning: log write elapsed time 719ms, size 1024KB
+
+*** 2015-03-10 16:37:33.609
+Warning: log write elapsed time 1024ms, size 2299KB
+
+*** 2015-03-10 16:43:21.105
+Warning: log write elapsed time 707ms, size 1025KB
+
+*** 2015-03-10 16:43:22.289
+Warning: log write elapsed time 1183ms, size 2298KB
+
+*** 2015-03-10 16:43:24.598
+Warning: log write elapsed time 1272ms, size 1455KB
+
+*** 2015-03-10 16:43:25.944
+Warning: log write elapsed time 667ms, size 1600KB
+
+*** 2015-03-10 16:43:27.088
+Warning: log write elapsed time 507ms, size 1043KB
+
+*** 2015-03-10 16:43:32.860
+Warning: log write elapsed time 1609ms, size 2898KB
+
+*** 2015-03-10 16:43:48.963
+Warning: log write elapsed time 537ms, size 489KB
+
+*** 2015-03-10 16:44:03.547
+Warning: log write elapsed time 659ms, size 1051KB
+
+*** 2015-03-10 16:44:04.728
+Warning: log write elapsed time 622ms, size 2086KB
+
+*** 2015-03-10 16:44:05.629
+Warning: log write elapsed time 666ms, size 1932KB
+
+*** 2015-03-10 16:44:06.641
+Warning: log write elapsed time 587ms, size 1391KB
+
+*** 2015-03-10 16:44:07.589
+Warning: log write elapsed time 510ms, size 2016KB
+
+*** 2015-03-10 16:44:09.419
+Warning: log write elapsed time 619ms, size 2299KB
+
+*** 2015-03-10 16:44:16.221
+Warning: log write elapsed time 715ms, size 2102KB
+
+*** 2015-03-10 16:44:16.884
+Warning: log write elapsed time 663ms, size 1233KB
+
+*** 2015-03-10 16:44:19.905
+Warning: log write elapsed time 1869ms, size 4029KB
+
+*** 2015-03-10 17:01:18.356
+Warning: log write elapsed time 1193ms, size 70KB
+
+*** 2015-03-10 17:01:19.119
+Warning: log write elapsed time 548ms, size 1683KB
+
+*** 2015-03-10 17:01:20.659
+Warning: log write elapsed time 1539ms, size 3305KB
+
+*** 2015-03-10 17:01:21.474
+Warning: log write elapsed time 525ms, size 1077KB
+
+*** 2015-03-10 17:01:47.868
+Warning: log write elapsed time 561ms, size 1024KB
+
+*** 2015-03-10 17:01:51.809
+Warning: log write elapsed time 828ms, size 632KB
+
+*** 2015-03-10 17:01:53.282
+Warning: log write elapsed time 1141ms, size 632KB
+
+*** 2015-03-10 17:02:03.407
+Warning: log write elapsed time 545ms, size 1743KB
+
+*** 2015-03-10 17:02:04.307
+Warning: log write elapsed time 760ms, size 1024KB
+
+*** 2015-03-10 17:02:05.466
+Warning: log write elapsed time 1158ms, size 2299KB
+
+*** 2015-03-10 17:02:06.096
+Warning: log write elapsed time 505ms, size 2319KB
+
+*** 2015-03-10 17:02:06.959
+Warning: log write elapsed time 684ms, size 2299KB
+
+*** 2015-03-10 17:02:07.538
+Warning: log write elapsed time 579ms, size 1024KB
+
+*** 2015-03-10 17:02:09.084
+Warning: log write elapsed time 1258ms, size 1024KB
+
+*** 2015-03-10 17:03:07.170
+Warning: log write elapsed time 895ms, size 334KB
+
+*** 2015-03-10 17:03:34.446
+Warning: log write elapsed time 510ms, size 1159KB
+
+*** 2015-03-10 17:03:36.624
+Warning: log write elapsed time 655ms, size 1527KB
+
+*** 2015-03-10 17:03:37.519
+Warning: log write elapsed time 733ms, size 4389KB
+
+*** 2015-03-10 17:03:40.373
+Warning: log write elapsed time 687ms, size 2206KB
+
+*** 2015-03-10 17:03:41.730
+Warning: log write elapsed time 806ms, size 1247KB
+
+*** 2015-03-10 17:03:42.384
+Warning: log write elapsed time 653ms, size 2141KB
+
+*** 2015-03-10 17:03:43.825
+Warning: log write elapsed time 592ms, size 3602KB
+
+*** 2015-03-10 17:03:46.685
+Warning: log write elapsed time 1557ms, size 3827KB
+
+*** 2015-03-10 17:03:47.847
+Warning: log write elapsed time 523ms, size 3323KB
+
+*** 2015-03-10 17:03:49.348
+Warning: log write elapsed time 1260ms, size 2052KB
+
+*** 2015-03-10 17:03:51.326
+Warning: log write elapsed time 686ms, size 1734KB
+
+*** 2015-03-10 17:03:52.356
+Warning: log write elapsed time 537ms, size 1910KB
+
+*** 2015-03-10 17:04:25.840
+Warning: log write elapsed time 578ms, size 1024KB
+
+*** 2015-03-10 17:04:35.760
+Warning: log write elapsed time 1153ms, size 1024KB
+
+*** 2015-03-10 17:04:58.801
+Warning: log write elapsed time 1124ms, size 2218KB
+
+*** 2015-03-10 17:04:59.686
+Warning: log write elapsed time 884ms, size 1104KB
+
+*** 2015-03-10 17:05:02.602
+Warning: log write elapsed time 619ms, size 1308KB
+
+*** 2015-03-10 17:05:03.327
+Warning: log write elapsed time 606ms, size 3538KB
+
+*** 2015-03-10 17:05:04.663
+Warning: log write elapsed time 594ms, size 2299KB
+
+*** 2015-03-10 17:05:05.942
+Warning: log write elapsed time 721ms, size 1024KB
+
+*** 2015-03-10 17:05:07.462
+Warning: log write elapsed time 790ms, size 1421KB
+
+*** 2015-03-10 17:05:08.773
+Warning: log write elapsed time 970ms, size 1313KB
+
+*** 2015-03-10 17:05:10.924
+Warning: log write elapsed time 1677ms, size 2299KB
+
+*** 2015-03-10 17:05:13.234
+Warning: log write elapsed time 570ms, size 2093KB
+
+*** 2015-03-10 17:05:14.560
+Warning: log write elapsed time 749ms, size 1322KB
+
+*** 2015-03-10 17:05:15.119
+Warning: log write elapsed time 558ms, size 1974KB
+
+*** 2015-03-10 17:10:16.322
+Warning: log write elapsed time 864ms, size 1181KB
+
+*** 2015-03-10 17:10:17.438
+Warning: log write elapsed time 580ms, size 1024KB
+
+*** 2015-03-10 17:10:20.193
+Warning: log write elapsed time 1179ms, size 1024KB
+
+*** 2015-03-10 17:10:42.228
+Warning: log write elapsed time 676ms, size 2298KB
+
+*** 2015-03-10 17:10:43.933
+Warning: log write elapsed time 521ms, size 1024KB
+
+*** 2015-03-10 17:10:47.450
+Warning: log write elapsed time 1288ms, size 925KB
+
+*** 2015-03-10 17:10:50.028
+Warning: log write elapsed time 1105ms, size 3941KB
+
+*** 2015-03-10 17:10:51.415
+Warning: log write elapsed time 564ms, size 1493KB
+
+*** 2015-03-10 17:10:53.993
+Warning: log write elapsed time 798ms, size 1157KB
+
+*** 2015-03-10 17:10:56.324
+Warning: log write elapsed time 1769ms, size 1063KB
+
+*** 2015-03-10 17:10:57.353
+Warning: log write elapsed time 1028ms, size 3327KB
+
+*** 2015-03-10 17:10:58.139
+Warning: log write elapsed time 501ms, size 1979KB
+
+*** 2015-03-10 17:10:59.643
+Warning: log write elapsed time 1049ms, size 1774KB
+
+*** 2015-03-10 17:11:01.790
+Warning: log write elapsed time 1133ms, size 3587KB
+
+*** 2015-03-10 17:11:10.003
+Warning: log write elapsed time 1660ms, size 1819KB
+
+*** 2015-03-10 17:26:04.531
+Warning: log write elapsed time 576ms, size 3323KB
+
+*** 2015-03-10 17:26:52.767
+Warning: log write elapsed time 674ms, size 1908KB
+
+*** 2015-03-10 17:26:55.503
+Warning: log write elapsed time 756ms, size 1146KB
+
+*** 2015-03-10 17:27:00.168
+Warning: log write elapsed time 668ms, size 1024KB
+
+*** 2015-03-10 17:27:01.596
+Warning: log write elapsed time 969ms, size 1407KB
+
+*** 2015-03-10 17:27:02.813
+Warning: log write elapsed time 1216ms, size 4442KB
+
+*** 2015-03-10 17:27:04.620
+Warning: log write elapsed time 629ms, size 1647KB
+
+*** 2015-03-10 17:27:06.382
+Warning: log write elapsed time 573ms, size 3950KB
+
+*** 2015-03-10 17:27:07.870
+Warning: log write elapsed time 968ms, size 1026KB
+
+*** 2015-03-10 17:27:09.530
+Warning: log write elapsed time 1659ms, size 3323KB
+
+*** 2015-03-10 17:27:10.260
+Warning: log write elapsed time 699ms, size 1059KB
+
+*** 2015-03-10 17:27:12.172
+Warning: log write elapsed time 1281ms, size 2313KB
+
+*** 2015-03-10 17:27:15.832
+Warning: log write elapsed time 1319ms, size 1045KB
+
+*** 2015-03-10 20:02:26.239
+Warning: log write elapsed time 628ms, size 5KB
+
+*** 2015-03-10 20:02:38.099
+Warning: log write elapsed time 583ms, size 115KB
+
+*** 2015-03-11 14:10:24.519
+Warning: log write elapsed time 1339ms, size 913KB
+
+*** 2015-03-11 14:10:25.241
+Warning: log write elapsed time 592ms, size 236KB
