@@ -1,0 +1,244 @@
+Trace file /u02/app/oracle/diag/rdbms/XXXXXXXXX/XXX3XX/trace/XXXXXX_lg00_280164.trc
+Oracle Database 12c EE Extreme Perf Release 12.2.0.1.0 - 64bit Production
+Build label:    RDBMS_12.2.0.1.0_LINUX.X64_170125
+ORACLE_HOME:    /u02/app/oracle/product/12.2.0/dbhome_6
+System name:    Linux
+Node name:      mbexaashad2x8m-21acd-slwwb2
+Release:        4.14.35-2047.514.5.1.2.el7uek.x86_64
+Version:        #2 SMP Thu Jul 28 15:33:31 PDT 2022
+Machine:        x86_64
+Storage:        Exadata
+Instance name: XXXXX2
+Redo thread mounted by this instance: 2
+Oracle process number: 35
+Unix process pid: 280164, image: oracle@xxxxxxxxxxxxxx-xxxxx-xxxxx2 (LG00)
+
+
+*** 2023-01-29T01:00:52.031166-06:00 (CDB$ROOT(1))
+*** SESSION ID:(1515.46386) 2023-01-29T01:00:52.031208-06:00
+*** CLIENT ID:() 2023-01-29T01:00:52.031214-06:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2023-01-29T01:00:52.031219-06:00
+*** MODULE NAME:() 2023-01-29T01:00:52.031234-06:00
+*** ACTION NAME:() 2023-01-29T01:00:52.031238-06:00
+*** CLIENT DRIVER:() 2023-01-29T01:00:52.031241-06:00
+*** CONTAINER ID:(1) 2023-01-29T01:00:52.031246-06:00
+ 
+
+*** TRACE FILE RECREATED AFTER BEING REMOVED ***
+
+kcrfw_alfs_update_mode: post->poll long#=28 sync#=213 sync=1759 poll=1872 rw=936 ack=186 min_sleep=1064
+
+*** 2023-01-29T01:00:52.031269-06:00 (CDB$ROOT(1))
+Log file sync switching to polling
+Current scheduling delay is 1 usec
+Current approximate redo synch write rate is 71 per sec
+kcrfw_alfs_update_mode: post->poll long#=3 sync#=14 sync=3628 poll=3066 rw=1533 ack=755 min_sleep=1064
+
+*** 2023-02-05T01:01:21.983724-06:00 (CDB$ROOT(1))
+Log file sync switching to polling
+Current scheduling delay is 1 usec
+Current approximate redo synch write rate is 4 per sec
+kcrfw_alfs_update_mode: post->poll long#=22 sync#=73 sync=1703 poll=1640 rw=820 ack=122 min_sleep=1064
+
+*** 2023-02-07T06:00:28.364485-06:00 (CDB$ROOT(1))
+Log file sync switching to polling
+Current scheduling delay is 1 usec
+Current approximate redo synch write rate is 24 per sec
+
+*** 2023-02-14T11:17:09.394730-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6031 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3247 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2377 616) initq 3004
+MP: #mbuf cur 6031 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 0
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x739a0a
+MP: #mbuf on a FreeQ 3038 on a Pending SendQ 0
+      outq : 8:40 12:23 16:19 25:1 29:1 32:227 36:154 44:2488 
+      outq : 62:2 63:11 64:7 65:22 69:2 73:7 114:33 139:1 
+      owner : 31:1273 32:1215 33:3 35:37 41:2 48:3 
+      owner : 61:8 130:2 136:3 257:7 279:5 329:4 
+      owner : 419:2 445:2 446:8 528:2 563:9 569:10 
+      owner : 577:8 
+MP: pid with most bufrs 31:1273 - owners with one bufr 435
+
+*** 2023-02-16T09:51:24.997399-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6031 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3257 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2327 656) initq 3004
+MP: #mbuf cur 6031 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 0
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x7628f1
+MP: #mbuf on a FreeQ 3048 on a Pending SendQ 0
+      outq : 8:47 12:22 16:27 25:1 29:1 32:285 36:170 44:2123 
+      outq : 63:4 64:4 65:12 73:134 74:18 114:199 139:1 
+      owner : 31:876 32:1264 33:4 35:325 41:5 130:2 
+      owner : 155:22 193:5 295:15 
+MP: pid with most bufrs 32:1264 - owners with one bufr 530
+
+*** 2023-02-17T06:55:26.989342-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6030 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3268 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2329 663) initq 3003
+MP: #mbuf cur 6030 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 0
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x775133
+MP: #mbuf on a FreeQ 3032 on a Pending SendQ 0
+      outq : 8:37 12:23 16:22 25:1 29:1 32:289 36:179 44:2294 
+      outq : 62:4 63:5 64:11 65:14 73:8 114:149 139:1 
+      owner : 31:1250 32:1039 33:2 35:155 41:5 79:4 
+      owner : 85:2 124:2 130:4 145:2 205:2 213:3 
+      owner : 302:9 445:7 451:4 604:3 619:7 629:2 
+      owner : 640:3 687:3 
+MP: pid with most bufrs 31:1250 - owners with one bufr 530
+
+*** 2023-02-17T13:51:47.044275-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6032 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3284 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2329 664) initq 3005
+MP: #mbuf cur 6032 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 0
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x77b2c7
+MP: #mbuf on a FreeQ 3039 on a Pending SendQ 0
+      outq : 7:1 8:30 12:31 16:28 25:1 29:1 32:264 36:184 
+      outq : 44:2365 63:4 64:2 65:9 73:12 74:3 114:103 139:1 
+      owner : 31:1312 32:1055 33:2 35:109 41:5 130:2 
+      owner : 228:3 251:2 288:2 316:3 607:11 782:3 
+MP: pid with most bufrs 31:1312 - owners with one bufr 530
+
+*** 2023-02-22T06:51:46.045381-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6030 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3301 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2305 688) initq 3003
+MP: #mbuf cur 6030 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 0
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x7de7d6
+MP: #mbuf on a FreeQ 3037 on a Pending SendQ 0
+      outq : 8:39 12:35 16:24 25:1 29:1 32:243 36:113 44:2053 
+      outq : 62:4 63:2 65:14 73:205 114:302 139:1 
+      owner : 31:1056 32:997 33:5 35:474 41:30 67:16 
+      owner : 130:2 134:9 155:2 297:8 353:2 
+MP: pid with most bufrs 31:1056 - owners with one bufr 436
+kcrfw_alfs_update_mode: poll->post curr_sched_delay=0 switch_sched_delay=1 curr_sync_count_delta=3 switch_sync_count_delta=14
+
+*** 2023-02-23T04:51:57.678951-06:00 (CDB$ROOT(1))
+Log file sync switching to post/wait
+Current approximate redo synch write rate is 1 per sec
+
+*** 2023-02-23T07:24:10.775786-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6030 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3301 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2297 696) initq 3003
+MP: #mbuf cur 6030 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 0
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x7f40ef
+MP: #mbuf on a FreeQ 3037 on a Pending SendQ 0
+      outq : 1:2 8:32 12:25 16:26 25:1 29:1 32:245 36:137 
+      outq : 44:2395 62:3 63:7 64:12 65:13 73:27 114:110 139:1 
+      owner : 31:1152 32:1240 33:12 35:126 41:2 74:3 
+      owner : 134:4 188:3 202:2 222:7 240:3 255:2 
+      owner : 292:5 373:2 381:7 382:5 412:2 428:4 
+      owner : 488:2 701:8 710:2 
+MP: pid with most bufrs 32:1240 - owners with one bufr 444
+
+*** 2023-02-26T17:45:30.004739-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6032 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3327 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2287 706) initq 3005
+MP: #mbuf cur 6032 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 0
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x83c70e
+MP: #mbuf on a FreeQ 3039 on a Pending SendQ 0
+      outq : 1:1 8:32 12:42 16:16 25:1 29:1 32:140 36:121 
+      outq : 44:2563 63:6 64:6 65:12 73:15 74:18 114:64 139:1 
+      owner : 31:1289 32:1291 33:5 35:73 41:3 125:2 
+      owner : 130:2 169:3 207:3 217:3 225:2 248:3 
+      owner : 267:5 297:5 298:5 443:3 488:2 
+MP: pid with most bufrs 32:1291 - owners with one bufr 340
+
+*** 2023-02-27T15:10:27.479291-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6030 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3320 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2278 709) initq 3003
+MP: #mbuf cur 6030 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 3072
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x84f438
+MP: #mbuf on a FreeQ 3043 on a Pending SendQ 0
+      outq : 1:1 8:34 12:40 16:15 25:1 29:1 32:135 36:127 
+      outq : 43:1 44:2575 62:2 63:3 65:17 73:30 114:60 139:1 
+      owner : 31:1567 32:1005 33:4 35:85 41:4 47:2 
+      owner : 130:2 143:4 179:12 217:11 349:2 351:2 
+      owner : 400:5 488:2 524:9 528:2 629:2 688:2 
+MP: pid with most bufrs 31:1567 - owners with one bufr 321
+
+*** 2023-02-28T14:56:57.635800-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6030 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3314 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2281 712) initq 3003
+MP: #mbuf cur 6030 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 3072
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x86428e
+MP: #mbuf on a FreeQ 3037 on a Pending SendQ 0
+      outq : 1:1 7:1 8:35 12:33 16:17 25:1 29:1 32:145 
+      outq : 36:116 43:1 44:2560 62:5 63:6 64:15 65:7 73:25 
+      outq : 114:67 139:1 
+      owner : 31:2052 32:508 35:89 41:2 136:2 138:3 
+      owner : 143:3 153:6 165:2 174:5 179:3 193:3 
+      owner : 292:4 325:2 354:2 372:5 373:3 402:3 
+      owner : 439:4 456:4 460:4 466:2 488:2 528:3 
+      owner : 537:5 720:2 
+MP: pid with most bufrs 31:2052 - owners with one bufr 314
+
+*** 2023-03-01T07:43:53.630158-06:00 (CDB$ROOT(1))
+== dump msg pool usage : mp 0x887b3148 cur 6030 init 3015 dmpsz (6030 12060)
+MP: [regular:0] (0x887b3148): attr 0x1  bufsz 640
+MP: total #mbuf cur 3324 init 6030 max 5632
+MP: #mbuf outstanding from sharedpool 3027 (free 2262 721) initq 3003
+MP: #mbuf cur 6030 init 3015 max 6042
+MP: #mbuf on Pending AvailQ 0 max 3072
+MP: dmpsz 12060 default dmpsz 6030 dmptm 0x872e8e
+MP: #mbuf on a FreeQ 3047 on a Pending SendQ 0
+      outq : 1:1 8:34 12:28 16:27 25:1 32:135 36:94 44:2623 
+      outq : 62:6 63:6 64:23 65:13 73:12 114:43 139:1 
+      owner : 31:1249 32:1372 33:3 35:53 130:2 135:2 
+      owner : 151:2 164:2 179:13 181:5 237:2 247:3 
+      owner : 270:2 286:8 402:18 468:3 
+MP: pid with most bufrs 32:1372 - owners with one bufr 308
+
+*** 2023-03-03T17:14:14.917824-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 2331ms (SCN 0xa50c01d75d8)
+
+*** 2023-03-03T17:14:14.918122-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 2330ms (SCN 0xa50c01d75db)
+
+*** 2023-03-03T17:14:14.918163-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 4696ms (SCN 0xa50c01d75ba)
+
+*** 2023-03-03T17:14:14.918186-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 3769ms (SCN 0xa50c01d75be)
+
+*** 2023-03-03T17:14:14.918215-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 3191ms (SCN 0xa50c01d75c1)
+
+*** 2023-03-03T17:14:14.918286-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 2334ms (SCN 0xa50c01d75c5)
+
+*** 2023-03-03T17:14:14.918307-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 2333ms (SCN 0xa50c01d75c9)
+
+*** 2023-03-03T17:14:14.918351-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 2332ms (SCN 0xa50c01d75d2)
+
+*** 2023-03-03T17:14:14.918372-06:00 (CDB$ROOT(1))
+Warning: log write broadcast wait time 2332ms (SCN 0xa50c01d75d5)
+
+*** 2023-03-03T18:01:55.097449-06:00 (CDB$ROOT(1))
+LGWR worker 0 (0.0) exiting

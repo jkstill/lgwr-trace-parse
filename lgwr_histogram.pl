@@ -27,13 +27,23 @@ foreach my $file (@files) {
 my @lgwrTime = ();
 my $lgwrGT=0;
 
+# example messages
+# Warning: log write broadcast wait time 335806ms (SCN 0x559.18499bf4)
+# Warning: log write elapsed time 566ms, size 328KB
+
 foreach my $file (@files) {
 	open F,'<',"$file" || die "cannot open $file - $!\n";
-	my @x=grep (/^Warning: log write elapsed time/,<F>);
+	my @x=grep (/^Warning: log write (elapsed|broadcast wait) time/,<F>);
 	chomp @x;
-	my ($d,$time,$size);
+	my ($d,$time);
 	foreach my $line (@x) {
-		($d,$d,$d,$d,$d,$time,$d,$size) = split(/\s+/,$line);
+		if ( $line =~ /log write elapsed time/ ) {
+			($d,$d,$d,$d,$d,$time) = split(/\s+/,$line);
+		} elsif ( $line =~ /Warning: log write broadcast wait time/) {
+			($d,$d,$d,$d,$d,$d,$time) = split(/\s+/,$line);
+		} else {
+			warn "unknown line format: $line\n";
+		}
 		$time =~ s/ms,//;
 		$lgwrGT = $time if $time > $lgwrGT;
 		push @lgwrTime , $time;
