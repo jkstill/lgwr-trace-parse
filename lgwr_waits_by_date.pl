@@ -29,7 +29,8 @@ my $lgwrGT=0;
 foreach my $file (@files) {
 
 	# ugly hack here, but in a hurry
-	open F,'-|',"/bin/grep  -B1 '^Warning: log write elapsed time' $file | grep -v -- '^--' " || die "cannot open grep - $!\n";
+	#open F,'-|',"/bin/grep -B1 '^Warning: log write elapsed time' $file | grep -v -- '^--' " || die "cannot open grep - $!\n";
+	open F,'-|',"/bin/grep -E -B1 '^Warning: log write (elapsed|broadcast wait) time' $file | grep -v -- '^--' " || die "cannot open grep - $!\n";
 	my ($d,$time,$size,$date);
 	my $isDate=1;
 	my ($dateLine,$elapsedMsg);
@@ -43,11 +44,21 @@ foreach my $file (@files) {
 			$isDate = 0;
 			$dateLine = $line;
 			($d,$date) = split(/\s+/,$dateLine);
+
+			# full date format with TZ, etc
+			if ($date =~ /^[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2}T/) {
+				$date =~ s/^([[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2})(T[[:digit:]]{2}:[[:digit:]]{2}:[[:digit:]]{2})(.*)$/$1/e;
+				$date =~ s/T/ /;
+			} 
 			#print "Date: $date\n";
 		} else {
 			$isDate = 1;
 			$elapsedMsg = $line;
-			($d,$d,$d,$d,$d,$time,$d,$size) = split(/\s+/,$elapsedMsg);
+			if ( $elapsedMsg =~ /broadcast/ ) {
+				($d,$d,$d,$d,$d,$d,$time,$d,$size) = split(/\s+/,$elapsedMsg);
+			} else {
+				($d,$d,$d,$d,$d,$time,$d,$size) = split(/\s+/,$elapsedMsg);
+			}	
 			$time =~ s/ms,//;
 			$lgwrGT = $time if $time > $lgwrGT;
 			#print "elapsed: $time\n\n";
